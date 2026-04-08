@@ -1,0 +1,8 @@
+# namespace :  is an isolated area in k8 cluster which is used to create resource for projects were we can totally control them .
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: roboshop 
+  labels:
+   project: roboshop
+   envrionment: dev  
