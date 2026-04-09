@@ -13,5 +13,5 @@ spec:
   env: 
    - name: project
      value: roboshop
-   - name: envrionemt
-     value: dev 
+   - name: course 
+     value: devops
