@@ -6,8 +6,8 @@ metadata:
     project: roboshop
     envrionment: dev 
   annotations:
-    owner: "asif" 
-    vesion: "1.0 "
+    imageregistry: "" 
+    jenkinsURL: ""
 spec:
   containers:
     name: nginx
