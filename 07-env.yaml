@@ -1,17 +1,14 @@
-apiVersion: V1
+apiVersion: v1
 kind: Pod
 metadata:
-  name: env-variables 
-  labels:
-    project: roboshop
-    compontent: frontend 
-    envrionment: dev 
+  name: env-demo
+  namespace: roboshop
 spec:
   containers:
   - name: nginx
     image: nginx:1.14.2
-  env: 
-   - name: project
-     value: roboshop
-   - name: course 
-     value: devops
+    env: 
+     - name: project 
+       value: roboshop
+     - name: course 
+       value: kubernetes 
