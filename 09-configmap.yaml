@@ -1,0 +1,7 @@
+apiVersion: v1
+kind : configmap
+metadata: 
+  name: my-config
+data:
+  myname: kushi 
+  age: 20 
