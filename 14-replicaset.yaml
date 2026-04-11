@@ -3,7 +3,8 @@ kind: ReplicaSet
 metadata:
   name: frontend
   labels:  # these labels are replicaset labels
-    app: guestbook
+    project: expense 
+    envrionment: dev 
     tier: frontend
 spec:
   # modify replicas according to your case
@@ -21,5 +22,6 @@ spec:
         tier: frontend 
     spec:
       containers:
-      - name: 
+      - name: nginx
+        image : nginx 
 
