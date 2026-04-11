@@ -18,7 +18,7 @@ spec:
     metadata:
       labels:
         project: expense 
-        envrionemnt: dev
+        envrionment: dev
         tier: frontend 
     spec:
       containers:
