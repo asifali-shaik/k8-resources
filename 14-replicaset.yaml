@@ -10,10 +10,14 @@ spec:
   replicas: 3
   selector:
     matchLabels:
+      project: expense 
+      envrionment: dev 
       tier: frontend
   template:
     metadata:
       labels:
+        project: expense 
+        envrionemnt: dev
         tier: frontend 
     spec:
       containers:
